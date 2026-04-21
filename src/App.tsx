@@ -100,7 +100,7 @@ export default function App() {
               Created by <span className="text-[#800020]">Kavin Sivasubramanian</span>
             </span>
             <span className="text-[9px] text-[#D2B48C] uppercase tracking-widest font-bold opacity-60">
-              Gemini 3.1 Flash Engine
+              Gemini 3 Flash Engine
             </span>
           </div>
         </div>
