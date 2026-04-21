@@ -1,0 +1,6 @@
+{
+  "name": "AI Fake News Detector",
+  "description": "Analyze news credibility instantly with AI. Evaluate probability of fake news, biased language, and factual consistency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
