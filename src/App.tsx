@@ -90,13 +90,18 @@ export default function App() {
       </main>
 
       {/* Footer / Disclaimer */}
-      <footer className="w-full border-t border-[#2A2A2A] py-4 mt-auto z-10 bg-[#0B0B0B]">
-        <div className="container mx-auto px-8 flex justify-between items-center text-center md:text-left">
-          <div className="text-[10px] text-[#BFBFBF] italic opacity-60 uppercase tracking-widest max-w-[70%]">
+      <footer className="w-full border-t border-[#2A2A2A] py-6 mt-auto z-10 bg-[#0B0B0B]">
+        <div className="container mx-auto px-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+          <div className="text-[10px] text-[#BFBFBF] italic opacity-60 uppercase tracking-widest md:max-w-[60%]">
             Disclaimer: This tool provides probabilistic predictions using NLP. Always verify news through multiple trusted sources.
           </div>
-          <div className="hidden md:flex space-x-4">
-            <span className="text-[10px] text-[#D2B48C] uppercase tracking-widest font-bold">V.3.1 Pro Engine</span>
+          <div className="flex flex-col md:items-end space-y-1">
+            <span className="text-[10px] text-white uppercase tracking-widest font-bold">
+              Created by <span className="text-[#800020]">Kavin Sivasubramanian</span>
+            </span>
+            <span className="text-[9px] text-[#D2B48C] uppercase tracking-widest font-bold opacity-60">
+              Gemini 3.1 Pro Engine
+            </span>
           </div>
         </div>
       </footer>
