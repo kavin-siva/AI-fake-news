@@ -62,7 +62,7 @@ Provide a structured assessment of the text and assign a probability score from 
 
     const ai = getAiClient();
     const response = await ai.models.generateContent({
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-3.1-flash",
       contents: prompt,
       tools: isUrl ? [{ googleSearch: {} }] : undefined,
       config: {
